@@ -1,0 +1,15 @@
+- Repository - holds the project in a remote server
+- Log
+- Branch
+
+1.Clone a repo - download a local copy
+    git clone https://github.com/BogomilaKatsarska/JavaFundamentals-May2024.git
+    git branch - to check in which branch we are
+    git checkout -b"my-first-branch" - create a new branch and move to it
+    git add .
+    git commit -m"added third line" - m stands for message
+2.Commit a changeset - save changes locally
+3.Push the changes - send local changes to the remote
+    git push
+4.Pull Changes - take and merge the changes from the remote
+5.Merge Changes

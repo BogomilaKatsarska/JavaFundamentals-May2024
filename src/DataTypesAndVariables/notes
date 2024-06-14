@@ -1,0 +1,59 @@
+1.A data type has:
+    - name
+    - size
+    - default value
+    8 bit = 1 byte
+    - camelCase
+    - scope
+    - lifetime - how long a variable stays in the memory
+    - span - from creation to usage of variable
+
+2. Integer Types:
+    - byte - 8bit (-128     127)
+    - short - 16bit (-32768     32767)
+    - int - 32bit
+    - long - 64bit
+    - BigInteger
+    import java.math.BigInteger;
+    BigInteger number = new BigInteger("23847283742389432423");
+    System.out.println(number.add(4)); .subtract .multiply .divide .divideAndReminder
+
+    System.out.println(Byte.MIN_VALUE);
+    System.out.println(Short.MAX_VALUE);
+
+2. Floating-Point Types:
+    - float - 32bit  (precision of 7 digits)
+    - double - 64bit (precision of 15-16digits)
+    - BigDecimal
+
+3. Conversion:
+    - implicit
+    - explicit - via cast
+    double price = 567.65;
+    int count = (int)price
+
+    parse           vs.     cast
+    Str -> any              1Num type -> 2Num type
+
+4. Boolean
+    boolean hasFridge = false;
+    boolean equalA1 = (a == 1)
+
+5. Symbols - %c
+    char symbol = 'r';
+    System.out.println((int) symbol); -> prints out the ASCII code
+    System.out.println((char) 97); -> prints out the symbol
+
+    char firstLetter = 'A';
+    char secondLetter = 'B';
+    soup(firstLetter + secondLetter) -> 131
+    soup("" + firstLetter + secondLetter) -> 131
+
+6. String
+    .length()
+    .charAt()
+    .toLowerCase()
+    .toUpperCase()
+    .equals()
+
+SHIFT + F6 -> rename the variable in all occurences
