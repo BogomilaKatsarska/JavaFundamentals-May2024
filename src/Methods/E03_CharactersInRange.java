@@ -8,11 +8,18 @@ public class E03_CharactersInRange {
 
         char firstSymbol = scanner.nextLine().charAt(0);
         char secondSymbol = scanner.nextLine().charAt(0);
+
+        printCharactersInRange(firstSymbol, secondSymbol);
     }
 
     public static void printCharactersInRange(char firstSymbol, char secondSymbol){
         if (firstSymbol < secondSymbol){
-            
+            for (char symbol = (char)(firstSymbol + 1) ; symbol < secondSymbol; symbol++){
+                System.out.print(symbol + " ");
+            }
+        } else {
+            for (char symbol = (char)(secondSymbol + 1) ; symbol < firstSymbol; symbol++){
+                System.out.print(symbol + " ");
         }
     }
 }
